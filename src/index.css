@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-bg text-white;
+}
+
+table {
+  @apply text-center;
+}
+
+button {
+  @apply outline-none bg-gray-600 rounded-sm px-3;
+}
